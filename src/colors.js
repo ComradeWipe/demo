@@ -2,6 +2,7 @@ export const gradientBgBase = 'bg-gradient-to-tr'
 export const gradientBgPurplePink = `${gradientBgBase} from-purple-400 via-pink-500 to-red-500`
 export const gradientBgDark = `${gradientBgBase} from-slate-700 via-slate-900 to-slate-800`
 export const gradientBgPinkRed = `${gradientBgBase} from-pink-400 via-red-500 to-yellow-500`
+export const gradientBgRhythm = `${gradientBgBase} from-fuchsia-500 via-cyan-400 to-indigo-600`
 
 export const colorsBgLight = {
   white: 'bg-white text-black',
@@ -10,7 +11,8 @@ export const colorsBgLight = {
   success: 'bg-emerald-500 border-emerald-500 text-white',
   danger: 'bg-red-500 border-red-500 text-white',
   warning: 'bg-yellow-500 border-yellow-500 text-white',
-  info: 'bg-blue-500 border-blue-500 text-white'
+  info: 'bg-blue-500 border-blue-500 text-white',
+  rhythm: 'bg-indigo-700 text-white dark:bg-cyan-900 dark:text-fuchsia-300'
 }
 
 export const colorsText = {
@@ -20,7 +22,8 @@ export const colorsText = {
   success: 'text-emerald-500',
   danger: 'text-red-500',
   warning: 'text-yellow-500',
-  info: 'text-blue-500'
+  info: 'text-blue-500',
+  rhythm: 'text-fuchsia-400 dark:text-cyan-300'
 }
 
 export const colorsOutline = {
@@ -30,7 +33,8 @@ export const colorsOutline = {
   success: [colorsText.success, 'border-emerald-500'],
   danger: [colorsText.danger, 'border-red-500'],
   warning: [colorsText.warning, 'border-yellow-500'],
-  info: [colorsText.info, 'border-blue-500']
+  info: [colorsText.info, 'border-blue-500'],
+  rhythm: [colorsText.rhythm, 'border-fuchsia-500']
 }
 
 export const getButtonColor = (color, isOutlined, hasHover, isActive = false) => {
