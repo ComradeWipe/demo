@@ -40,7 +40,7 @@ const handleStyleChange = (slug) => {
           <CardBox
             v-for="style in styles"
             :key="style"
-            :class="['cursor-pointer', ...getButtonColor('rhythm', false, true)]"
+            class="cursor-pointer bg-gray-50"
             is-hoverable
             @click="handleStyleChange(style)"
           >
