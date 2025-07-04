@@ -62,13 +62,13 @@ export const getButtonColor = (color, isOutlined, hasHover, isActive = false) =>
       rhythm: 'bg-indigo-800 dark:bg-cyan-900'
     },
     bg: {
-      white: 'bg-white text-black',
-      whiteDark: 'bg-white text-black dark:bg-slate-900 dark:text-white',
-      lightDark: 'bg-gray-100 text-black dark:bg-slate-800 dark:text-white',
-      contrast: 'bg-gray-800 text-white dark:bg-white dark:text-black',
-      success: 'bg-emerald-600 dark:bg-emerald-500 text-white',
-      danger: 'bg-red-600 dark:bg-red-500 text-white',
-      warning: 'bg-yellow-600 dark:bg-yellow-500 text-white',
+      white: 'bg-indigo-700 text-white dark:bg-cyan-900 dark:text-fuchsia-300',
+      whiteDark: 'bg-indigo-700 text-white dark:bg-cyan-900 dark:text-fuchsia-300',
+      lightDark: 'bg-indigo-700 text-white dark:bg-cyan-900 dark:text-fuchsia-300',
+      contrast: 'bg-indigo-700 text-white dark:bg-cyan-900 dark:text-fuchsia-300',
+      success: 'bg-indigo-700 text-white dark:bg-cyan-900 dark:text-fuchsia-300',
+      danger: 'bg-indigo-700 text-white dark:bg-cyan-900 dark:text-fuchsia-300',
+      warning: 'bg-indigo-700 text-white dark:bg-cyan-900 dark:text-fuchsia-300',
       info: 'bg-indigo-700 text-white dark:bg-cyan-900 dark:text-fuchsia-300',
       rhythm: 'bg-indigo-700 text-white dark:bg-cyan-900 dark:text-fuchsia-300'
     },
