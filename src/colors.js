@@ -47,7 +47,8 @@ export const getButtonColor = (color, isOutlined, hasHover, isActive = false) =>
       success: 'ring-emerald-300 dark:ring-emerald-700',
       danger: 'ring-red-300 dark:ring-red-700',
       warning: 'ring-yellow-300 dark:ring-yellow-700',
-      info: 'ring-blue-300 dark:ring-blue-700'
+      info: 'ring-blue-300 dark:ring-blue-700',
+      rhythm: 'ring-fuchsia-400 dark:ring-cyan-400'
     },
     active: {
       white: 'bg-gray-100',
@@ -57,7 +58,8 @@ export const getButtonColor = (color, isOutlined, hasHover, isActive = false) =>
       success: 'bg-emerald-700 dark:bg-emerald-600',
       danger: 'bg-red-700 dark:bg-red-600',
       warning: 'bg-yellow-700 dark:bg-yellow-600',
-      info: 'bg-blue-700 dark:bg-blue-600'
+      info: 'bg-blue-700 dark:bg-blue-600',
+      rhythm: 'bg-indigo-800 dark:bg-cyan-900'
     },
     bg: {
       white: 'bg-white text-black',
@@ -67,7 +69,8 @@ export const getButtonColor = (color, isOutlined, hasHover, isActive = false) =>
       success: 'bg-emerald-600 dark:bg-emerald-500 text-white',
       danger: 'bg-red-600 dark:bg-red-500 text-white',
       warning: 'bg-yellow-600 dark:bg-yellow-500 text-white',
-      info: 'bg-blue-600 dark:bg-blue-500 text-white'
+      info: 'bg-blue-600 dark:bg-blue-500 text-white',
+      rhythm: 'bg-indigo-700 text-white dark:bg-cyan-900 dark:text-fuchsia-300'
     },
     bgHover: {
       white: 'hover:bg-gray-100',
@@ -80,7 +83,9 @@ export const getButtonColor = (color, isOutlined, hasHover, isActive = false) =>
         'hover:bg-red-700 hover:border-red-700 hover:dark:bg-red-600 hover:dark:border-red-600',
       warning:
         'hover:bg-yellow-700 hover:border-yellow-700 hover:dark:bg-yellow-600 hover:dark:border-yellow-600',
-      info: 'hover:bg-blue-700 hover:border-blue-700 hover:dark:bg-blue-600 hover:dark:border-blue-600'
+      info: 'hover:bg-blue-700 hover:border-blue-700 hover:dark:bg-blue-600 hover:dark:border-blue-600',
+      rhythm:
+  'hover:bg-indigo-800 hover:border-fuchsia-400 hover:text-white hover:dark:bg-cyan-800 hover:dark:border-cyan-400'
     },
     borders: {
       white: 'border-white',
@@ -90,14 +95,16 @@ export const getButtonColor = (color, isOutlined, hasHover, isActive = false) =>
       success: 'border-emerald-600 dark:border-emerald-500',
       danger: 'border-red-600 dark:border-red-500',
       warning: 'border-yellow-600 dark:border-yellow-500',
-      info: 'border-blue-600 dark:border-blue-500'
+      info: 'border-blue-600 dark:border-blue-500',
+      rhythm: 'border-fuchsia-500 dark:border-cyan-400'
     },
     text: {
       contrast: 'dark:text-slate-100',
       success: 'text-emerald-600 dark:text-emerald-500',
       danger: 'text-red-600 dark:text-red-500',
       warning: 'text-yellow-600 dark:text-yellow-500',
-      info: 'text-blue-600 dark:text-blue-500'
+      info: 'text-blue-600 dark:text-blue-500',
+      rhythm: 'text-fuchsia-400 dark:text-cyan-300'
     },
     outlineHover: {
       contrast:
@@ -108,7 +115,9 @@ export const getButtonColor = (color, isOutlined, hasHover, isActive = false) =>
         'hover:bg-red-600 hover:text-white hover:text-white hover:dark:text-white hover:dark:border-red-600',
       warning:
         'hover:bg-yellow-600 hover:text-white hover:text-white hover:dark:text-white hover:dark:border-yellow-600',
-      info: 'hover:bg-blue-600 hover:text-white hover:dark:text-white hover:dark:border-blue-600'
+      info: 'hover:bg-blue-600 hover:text-white hover:dark:text-white hover:dark:border-blue-600',
+      rhythm:
+  'hover:bg-indigo-800 hover:text-white hover:dark:text-white hover:dark:border-fuchsia-400'
     }
   }
 
